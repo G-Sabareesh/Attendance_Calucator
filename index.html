@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128202; Attendence Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="main_layer">
+                <div class="heading" align="center">Attendence</div>
+                <div class="wrapper">
+                    <label for="absent_day" class="input_days">
+                        Absent day 
+                    </label>    
+                    <div class="input_box">
+                        <span>D</span>
+                        <input type="number" autocomplete="off" value="0" min="0" max="90" step="0.5" id="absent_day" class="value">
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <label for="total_days" class="input_days">
+                        Total day
+                    </label>
+                    <div class="input_box">
+                        <span>D</span>
+                    <input type="number" autocomplete="off" value="90" min="0"  id="total_days" class="value">
+                    </div>
+                </div>
+                <span id="message">*Please enter valid input</span>
+                <section class="result_section">
+                    <div class="wrapper">
+                        <span class="result_display">Attendence % </span>
+                        <span id="attendence_percentage" class="result_value">100.00</span>                    
+                    </div>
+                    <div class="wrapper">
+                        <span class="result_display">Present days </span>
+                        <span id="present_days" class="result_value">90.00</span>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

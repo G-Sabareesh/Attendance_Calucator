@@ -1,0 +1,137 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+body
+{
+    background-color: #887ce294;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    padding: 10px;
+}
+section
+{
+    background-color: #ffffff2d;
+    border-radius: 5px;
+    border: 3px  #4a48489a ridge;
+    width: fit-content(20em);
+    margin: 10px;
+    padding: 5px;
+}
+.heading
+{
+    box-shadow: rgba(0, 0, 0, 0.356)0px 3px;
+    color: #3532e6f5;
+    font-size: larger;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder;
+    padding: 3px;
+    margin-top: 2px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.main_layer
+{
+
+    position: relative;
+    height: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+.input_box
+{
+    background-color: #a6b0ff00;
+    color: #3532e6f5;
+    font-size: large;
+    font-weight: bolder;
+    padding: 4px;
+    margin: 2px;   
+}
+
+.input_days
+{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.829);
+    font-weight: 400;
+}
+
+.value
+{
+    color: #974afd;
+    background-color: #ffffff4f;
+    border: 1px solid black;
+    font-size: medium;
+    font-weight: bolder;
+    outline: none;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+}
+.result_display
+{
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.76);
+
+}
+#attendence_percentage,#present_days
+{  
+    padding: 3px;
+    margin: auto 10px auto;
+}
+.result_section
+{
+    background-color: #ffffff17;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.356);
+    text-align: left;
+    position: relative;
+    margin: auto 10px 1px;
+    outline: none;
+    padding: 10px;
+    width: fit-content;
+}
+.result_value
+{
+    background-color: #ffffff4f;
+    border: 1px solid black;
+    color: #913ffc;
+    font-size: medium;
+    font-weight: bolder;
+    outline: none;
+    width: 70px;
+    text-align: center;
+    padding: 5px;  
+}
+#message
+{
+    
+    display: none;
+    font-size: smaller;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.753);
+    margin: 5px;
+    padding: 10px;
+}
